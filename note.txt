@@ -1,1 +1,3 @@
-Course Link : https://youtu.be/0-S5a0eXPoc
+tutorial video : https://www.youtube.com/watch?v=_ivIUCSOZ78
+Github source code : https://github.com/adrianhajdin/react-native-nft-marketplace
+Github source for showcase website : https://github.com/adrianhajdin/nft-marketplace-showcase
