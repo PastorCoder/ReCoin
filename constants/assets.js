@@ -38,4 +38,5 @@ export default {
   person02,
   person03,
   person04,
+  
 };
