@@ -45,7 +45,7 @@ const HomeHeader = ( { onSearch }) => {
             color: COLORS.white,
           }}
         >
-          Hello, Victoria 👋
+          Hello, notEezy 👋
         </Text>
         <Text
           style={{
@@ -78,7 +78,7 @@ const HomeHeader = ( { onSearch }) => {
           <TextInput
             placeholder="Search NFT"
             style={{ flex: 1 }}
-            onChange={onSearch}
+            onChangeText={(e) => {onSearch(e)}}
           />
         </View>
       </View>

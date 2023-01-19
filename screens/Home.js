@@ -8,23 +8,27 @@ const Home = () => {
   const [nftData, setNftData] = useState(NFTData);
 
 
-
-
   const handleSearch = (value) => {
-    if (value.length === 0) return setNftData(NFTData);
+    if ( value.length === 0) return setNftData(NFTData);
 
-    const searchValue = value.toString().toLowerCase(); 
+    // console.log(value);
 
-    const filteredData = NFTData.filter((item) =>{
-      item.name.toLowerCase().includes(searchValue)
+    const filteredData = NFTData.filter((item) => {
+      // console.log("Item : ", item.name.toLowerCase());
+      console.log("Value : ", value.toLowerCase());
+      return item.name.toLowerCase().includes(value.toLowerCase())
+      // console.log("this is item", item.name)
     });
+    // console.log(filteredData);
+    setNftData(filteredData);
 
-    if (filteredData.length === 0) {
-      setNftData(NFTData);
-    } else {
-      setNftData(filteredData);
-    }
-  };
+
+  //   if (filteredData.length === 0) {
+  //     setNftData(NFTData);
+  //   } else {
+  //     setNftData(filteredData);
+  //   }
+   };
 
   return (
     <SafeAreaView style={{ flex: 1 }}>

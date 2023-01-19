@@ -107,7 +107,7 @@ export const EndDate = () => {
       >
         12h 30m
       </Text>
-      <Text
+      {/* <Text
         style={{
           fontFamily: FONTS.regular,
           fontSize: SIZES.small,
@@ -115,7 +115,7 @@ export const EndDate = () => {
         }}
       >
         Ending in
-      </Text>
+      </Text> */}
     </View>
   );
 };

@@ -1,3 +1,16 @@
 tutorial video : https://www.youtube.com/watch?v=_ivIUCSOZ78
 Github source code : https://github.com/adrianhajdin/react-native-nft-marketplace
 Github source for showcase website : https://github.com/adrianhajdin/nft-marketplace-showcase
+
+Play Store Internal Track and TestFlight
+
+Mystical Woodland - https://twitter.com/njburnell
+
+Mutant Ape Yacht Club - https://twitter.com/yugalabs
+
+Cryptopunk - https://twitter.com/larvalabs
+
+Bored Ape kennel club (has BAYC twitter acc on opensea) - https://twitter.com/boredapeyc
+
+DigiDaigaku Genesis - https://twitter.com/Digidaigaku
+    
